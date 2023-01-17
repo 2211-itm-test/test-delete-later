@@ -1,5 +1,4 @@
 // This is the Web Server
-// this will cause a conflict
 const express = require('express');
 const server = express();
 
@@ -7,8 +6,6 @@ const server = express();
 // from localhost:3000 to localhost:4000 in local dev env
 const cors = require('cors');
 server.use(cors());
-
-// New comment from sean
 
 // create logs for everything
 const morgan = require('morgan');
