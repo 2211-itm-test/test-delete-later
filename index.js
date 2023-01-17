@@ -7,6 +7,8 @@ const server = express();
 const cors = require('cors');
 server.use(cors());
 
+// New comment from sean
+
 // create logs for everything
 const morgan = require('morgan');
 server.use(morgan('dev'));
